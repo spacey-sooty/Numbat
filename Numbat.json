@@ -11,7 +11,7 @@
     "cppDependencies": [
         {
             "groupId": "curtinfrc.numbat",
-            "artifactId": "Vendor-cpp",
+            "artifactId": "Numbat-cpp",
             "version": "0.0.1",
             "libName": "Numbat",
             "headerClassifier": "headers",
