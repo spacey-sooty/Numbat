@@ -5,7 +5,7 @@
     "frcYear": "2024",
     "uuid": "d82ca4d4-53b9-4d65-9f20-649571fbd696",
     "mavenUrls": [
-        "https://github.com/spacey-sooty/Numbat/releases/download/stable/maven"
+        ""
     ],
     "jsonUrl": "https://raw.githubusercontent.com/spacey-sooty/Numbat/master/Numbat.json",
     "cppDependencies": [
