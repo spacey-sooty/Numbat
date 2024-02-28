@@ -58,6 +58,7 @@ jobs:
           fetch-depth: 0
       - name: Fetch all history and metadata
         run: |
+          git config --global --add safe.directory /__w/Numbat/Numbat
           git checkout -b pr
           git branch -f master origin/master
       - name: Set up Python 3.8
