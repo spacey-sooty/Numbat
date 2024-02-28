@@ -8,6 +8,8 @@
         "https://spacey-sooty.github.io/Numbat/releases/"
     ],
     "jsonUrl": "https://raw.githubusercontent.com/spacey-sooty/Numbat/master/Numbat.json",
+    "javaDependencies": [],
+    "jniDependencies": [],
     "cppDependencies": [
         {
             "groupId": "curtinfrc.numbat",
