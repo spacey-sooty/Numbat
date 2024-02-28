@@ -42,10 +42,10 @@ ext.addTaskToCopyAllOutputs = { task ->
     copyAllOutputs.from task.archiveFile
 }
 
-def artifactGroupId = 'com.vendor.frc'
+def artifactGroupId = 'curtinfrc.numbat'
 def baseArtifactId = 'Vendor'
-def zipBaseName = "_GROUP_curtinfrc_numbat_frc_ID_${baseArtifactId}-cpp_CLS"
-def javaBaseName = "_GROUP_curtinfrc_numbat_frc_ID_${baseArtifactId}-java_CLS"
+def zipBaseName = "_GROUP_curtinfrc_numbat_ID_${baseArtifactId}-cpp_CLS"
+def javaBaseName = "_GROUP_curtinfrc_numbat_ID_${baseArtifactId}-java_CLS"
 
 task cppHeadersZip(type: Zip) {
     destinationDirectory = outputsFolder
@@ -146,7 +146,7 @@ tasks.matching {it != cleanReleaseRepo}.all {it.dependsOn cleanReleaseRepo}
 
 model {
     publishing {
-        def taskList = createComponentZipTasks($.components, ['Vendor'], zipBaseName, Zip, project, includeStandardZipFormat)
+        def taskList = createComponentZipTasks($.components, ['Numbat'], zipBaseName, Zip, project, includeStandardZipFormat)
 
         publications {
             cpp(MavenPublication) {

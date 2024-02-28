@@ -3,11 +3,11 @@
     "name": "Numbat",
     "version": "0.0.1",
     "frcYear": "2024",
-    "uuid": "Generate A Unique GUID https://guidgenerator.com/online-guid-generator.aspx and insert it here", This line is to purposely make this fail to parse
+    "uuid": "d82ca4d4-53b9-4d65-9f20-649571fbd696",
     "mavenUrls": [
-        "ThisNeedsToBeTheRootMavenUrl"
+        "https://github.com/spacey-sooty/Numbat/releases/download/stable/maven"
     ],
-    "jsonUrl": "InsertSomeUrlHere",
+    "jsonUrl": "https://raw.githubusercontent.com/spacey-sooty/Numbat/master/Numbat.json",
     "cppDependencies": [
         {
             "groupId": "curtinfrc.numbat",
